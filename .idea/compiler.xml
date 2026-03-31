@@ -11,12 +11,22 @@
         <module name="simpleWebApp" />
         <module name="DemoApp" />
       </profile>
+      <profile name="Annotation profile for SimpleWebAppWithJpa" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.44/lombok-1.18.44.jar" />
+        </processorPath>
+        <module name="SimpleWebAppWithJpa" />
+      </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="DemoApp" options="-parameters" />
       <module name="MyApp" options="-parameters" />
+      <module name="SimpleWebAppWithJpa" options="-parameters" />
       <module name="simpleWebApp" options="-parameters" />
     </option>
   </component>

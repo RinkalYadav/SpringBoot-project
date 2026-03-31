@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/DemoApp/DemoApp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyApp/MyApp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SimpleWebAppWithJpa/SimpleWebAppWithJpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/simpleWebApp/simpleWebApp/src/main/java" charset="UTF-8" />
   </component>
 </project>

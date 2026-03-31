@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/MyApp/MyApp/pom.xml" />
         <option value="$PROJECT_DIR$/DemoApp/DemoApp/pom.xml" />
         <option value="$PROJECT_DIR$/simpleWebApp/simpleWebApp/pom.xml" />
+        <option value="$PROJECT_DIR$/SimpleWebAppWithJpa/SimpleWebAppWithJpa/pom.xml" />
       </list>
     </option>
   </component>
